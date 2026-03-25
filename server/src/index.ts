@@ -13,7 +13,6 @@ interface MetricsPayload {
 }
 
 const app = express()
-
 const PORT = process.env.PORT || 3001
 
 const FRONTEND_URLS = (process.env.ALLOWED_ORIGINS || '')
@@ -33,7 +32,6 @@ const corsOptions = {
   },
   credentials: true,
 }
-app.options('(.*)', cors(corsOptions))
 
 app.use(cors(corsOptions))
 app.use(express.json())
