@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./overrides.css";
+
+@theme {
+  --color-yt-bg: #0f0f0f;
+  --color-yt-surface: #272727;
+  --color-yt-surface-hover: #3f3f3f;
+  --color-yt-border: #3f3f3f;
+  --color-yt-text: #f1f1f1;
+  --color-yt-secondary: #aaaaaa;
+  --color-yt-red: #ff0000;
+}
