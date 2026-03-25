@@ -1,3 +1,7 @@
+LIVE: https://youtube-metrics.onrender.com/
+
+Validate: https://youtube-metrics-server.onrender.com/metrics
+
 ### Installation
 
 Install all dependencies:
